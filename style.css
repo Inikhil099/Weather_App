@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:slnt,wght@-10,527&display=swap');
+
+
+
+
+*{
+    font-family:'Afacad Flux', 'Courier New', Courier, monospace;
+}
+
+
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* height: 7vh; */
+    height: 90vh;
+    width: 30%;
+    background-color: white;
+    margin: auto auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.search-bar{
+    font-size: 2rem;
+    height: 50px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input{
+    height: 40px;
+    font-size: 1.2rem;
+    width: 50%;
+    color: rgb(4, 38, 62);
+    border-radius: 10px;
+    background: none;
+    outline: none;
+    border: none;
+    /* text-transform: uppercase; */
+}
+
+.search{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: lightblue;
+}
+
+.temperature{
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+.temp{
+    font-size: 2.4rem;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+}
+.result{
+    margin: 0;
+    padding: 0;
+    font-size: 1.7rem;
+    text-transform: capitalize;
+}
+
+.imgs{
+    height: 200px;
+    width: 240px;
+    display: none;
+}
+
+
+
+
+.info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.is{
+    font-size: 2.5rem;
+}
+.humidity{
+    width: 50%;
+    height: 100px;
+    border-right: 1px solid;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.wind{
+    width: 50%;
+    height: 100px;
+    border-right: 1px solid;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
